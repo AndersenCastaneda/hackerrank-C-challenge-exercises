@@ -1,6 +1,4 @@
 #include <stdbool.h>
-#include <stddef.h>
-#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -10,7 +8,7 @@ char *readline();
 
 int main(void)
 {
-	// Variables declaration
+	// Variable declaration
 	char *n_endptr;
 
 	// Assign the input line
@@ -43,7 +41,7 @@ int main(void)
 		printf("eight\n");
 	else if (n == 9)
 		printf("nine\n");
-	else
+	else if (n > 9)
 		printf("Greater than 9\n");
 
 	// Successful exit status
@@ -105,5 +103,5 @@ char *readline()
 	data = realloc(data, data_length);
 
 	// return the input line
-	return data;
+	return (data);
 }

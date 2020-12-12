@@ -8,8 +8,8 @@ void update(int *a, int *b)
 	// Assign a + b
 	*a = *a + *b;
 
-	// Depending of a > b or b > a
-	// Assign a - b or b - a (using ternary operator)
+	/* Depending of a > b or b > a
+	   Assign a - b or b - a (using ternary operator) */
 	*b = (c > *b) ? c - *b : *b - c;
 }
 
@@ -26,7 +26,7 @@ int main(void)
 	update(pa, pb);
 
 	// Console output a and b content
-	printf("%d\n%d", a, b);
+	printf("%d\n%d\n", a, b);
 
 	// Successful exit status
 	return (0);
