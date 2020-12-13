@@ -10,7 +10,7 @@ int find_nth_term(int n, int a, int b, int c)
 	if (n == 2) { return b; }
 	if (n == 3) { return c; }
 
-	// Loop calculating S(i) = S(3) + S(2) + S(1) from n = 4 (S(4)) to n
+	// Loop calculating S(i) = S(3) + S(2) + S(1) from i = 4 (S(4)) to n
 	for (int i = 4; i <= n; i++)
 	{
 		// S(i) = S(3) + S(2) + S(1)
@@ -26,7 +26,7 @@ int find_nth_term(int n, int a, int b, int c)
 		c = nth;
 	}
 
-	// Return S(n)
+	// Returns S(n)
 	return (nth);
 }
 
@@ -35,15 +35,15 @@ int main(void)
 	// Variables declaration
 	int n, a, b, c;
 
-	// Assign the input to the corresponding variables
+	// Assigns the input to the corresponding variables
 	scanf("%d %d %d %d", &n, &a, &b, &c);
 
-	// Assign the return of the called function
+	// Assigns the return of the called function
 	int ans = find_nth_term(n, a, b, c);
 
-	// Console output ans content
+	// Prints ans content
 	printf("%d\n", ans);
 
-	// Successful exit status
+	// Returns successful exit status
 	return (0);
 }

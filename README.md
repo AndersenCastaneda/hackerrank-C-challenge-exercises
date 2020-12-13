@@ -39,6 +39,16 @@
 - [12_sum_of_digits_of_a_five_digit_number.c](./12_sum_of_digits_of_a_five_digit_number.c)
 
 # 📚 Mid Exercises:
+### [13. 1D Arrays in C](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem)
+- [13_1d_arrays_in_c.c](./13_1d_arrays_in_c.c)
+
+### [14. Array Reversal](https://www.hackerrank.com/challenges/reverse-array-c/problem)
+- [14_array_reversal.c](./14_array_reversal.c)
+
+### [15. Printing Tokens](https://www.hackerrank.com/challenges/printing-tokens-/problem)
+- [15_printing_tokens.c](./15_printing_tokens.c)
+
+
 
 
 # 📚 Hard Exercises:

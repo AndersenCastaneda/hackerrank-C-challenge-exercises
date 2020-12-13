@@ -6,7 +6,7 @@ int main(void)
 	int a, b;
 	char *str[] = {"", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 
-	// Assign the input to the corresponding variables
+	// Assigns the input to the corresponding variables
 	scanf("%d\n%d", &a, &b);
 
 	// Loop from a to b
@@ -21,6 +21,6 @@ int main(void)
 			printf("odd\n");
 	}
 
-	// Successful exit status
+	// Returns successful exit status
 	return (0);
 }

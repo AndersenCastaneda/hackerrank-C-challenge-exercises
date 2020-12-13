@@ -6,14 +6,14 @@ int main(void)
 	int a, b;
 	float c, d;
 
-	// Assign the input to the corresponding variables
+	// Assigns the input to the corresponding variables
 	scanf("%d %d", &a, &b);
 	scanf("%f %f", &c, &d);
 
-	// Console output sum and difference
+	// Prints sum and difference
 	printf("%d %d\n", a + b, a - b);
 	printf("%.1f %.1f\n", c + d, c - d);
 
-	// Successful exit status
+	// Returns successful exit status
 	return (0);
 }

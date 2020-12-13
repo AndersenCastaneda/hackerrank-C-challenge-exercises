@@ -11,10 +11,10 @@ int main(void)
 	// Variable declaration
 	char *n_endptr;
 
-	// Assign the input line
+	// Assigns the input line
 	char *n_str = readline();
 
-	// Convert the input line (char *) to int (base 10) and assign it to n
+	// Converts the input line (char *) to int (base 10) and assign it to n
 	int n = strtol(n_str, &n_endptr, 10);
 
 	/* If the input line can't be converted to an int
@@ -44,7 +44,7 @@ int main(void)
 	else if (n > 9)
 		printf("Greater than 9\n");
 
-	// Successful exit status
+	// Returns successful exit status
 	return (EXIT_SUCCESS);
 }
 
@@ -60,7 +60,7 @@ char *readline()
 	// Infinite Loop
 	while (true)
 	{
-		// Set cursor to point to the first memory byte to data is point to
+		// Sets cursor to point to the first memory byte to data is point to
 		char *cursor = data + data_length;
 
 		/* Reads a line from the specified stream and stores it into the string pointed to by cursor.
@@ -90,12 +90,12 @@ char *readline()
 		if (!data)
 			break;
 
-		/* Set alloc_length equal to new_length (this way we can increment
+		/* Sets alloc_length equal to new_length (this way we can increment
 		   the necessary bytes of memory for read the input line) */
 		alloc_length = new_length;
 	}
 
-	// Set the last index of the input line to null
+	// Sets the last index of the input line to null
 	if (data[data_length - 1] == '\n')
 		data[data_length - 1] = '\0';
 

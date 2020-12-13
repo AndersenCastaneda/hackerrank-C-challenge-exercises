@@ -25,7 +25,7 @@ void calculate_the_maximum(int n, int k)
 		}
 	}
 
-	// Console output and, or, xor
+	// Prints and, or, xor biggest values
 	printf("%d\n%d\n%d\n", and, or, xor);
 }
 
@@ -34,12 +34,12 @@ int main(void)
 	// Variables declaration
 	int n, k;
 
-	// Assign the input to the corresponding variables
+	// Assigns the input to the corresponding variables
 	scanf("%d %d", &n, &k);
 
-	// Call function to operate with the values
+	// Calls function to operate with the values
 	calculate_the_maximum(n, k);
 
-	// Successful exit status
+	// Returns successful exit status
 	return (0);
 }
