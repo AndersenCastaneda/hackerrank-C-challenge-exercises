@@ -61,4 +61,7 @@ Feel free to download or fork this repository.
 ### [18. Variadic functions in C](https://www.hackerrank.com/challenges/variadic-functions-in-c/problem)
 - [18_variadic_functions_in_c.c](./18_variadic_functions_in_c.c)
 
+### [19. Printing Pattern Using Loops](https://www.hackerrank.com/challenges/printing-pattern-2/problem)
+- [19_printing_pattern_using_loops.c](./19_printing_pattern_using_loops.c)
+
 # 📚 Hard Exercises:
