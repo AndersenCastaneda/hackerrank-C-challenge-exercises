@@ -3,6 +3,8 @@
 Hi!. I decided to Solve all the C Practice Algorithms from Hackerrank. I commented all the lines of the code so everyone can understand the code even if is new in C.
 Feel free to download or fork this repository.
 
+<img src="./icon.png" width="150px">
+
 # 📚 Easy Exercises:
 ### [1. "Hello World!" in C](https://www.hackerrank.com/challenges/hello-world-c/problem)
 - [1_hello_world.c](./01_hello_world.c)
