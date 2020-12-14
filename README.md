@@ -53,8 +53,10 @@ Feel free to download or fork this repository.
 ### [16. Digit Frequency](https://www.hackerrank.com/challenges/frequency-of-digits-1/problem)
 - [16_digit_frequency.c](./16_digit_frequency.c)
 
-### [17. ]()
-- []()
+### [17. Small Triangles, Large Triangles](https://www.hackerrank.com/challenges/small-triangles-large-triangles/problem)
+- [17_small_triangles_large_triangles.c](./17_small_triangles_large_triangles.c)
 
+### [18. Variadic functions in C](https://www.hackerrank.com/challenges/variadic-functions-in-c/problem)
+- [18_variadic_functions_in_c.c](./18_variadic_functions_in_c.c)
 
 # 📚 Hard Exercises:

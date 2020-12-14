@@ -31,6 +31,7 @@ int main(void)
 		else if (n_str[i] == 57) numbers[9] += 1;
 	}
 
+	// Prints the digit frequency
 	for (int i = 0; i < 10; i++)
 		printf((i == 9) ? "%d\n" : "%d ", numbers[i]);
 
